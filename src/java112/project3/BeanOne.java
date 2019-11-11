@@ -7,7 +7,10 @@ package java112.project3;
  */
 public class BeanOne extends Object {
 
-    private  String  mySpecialData;
+    private String mySpecialData;
+    private String teamName;
+    private String playerName;
+    private Integer jerseyNumber;
 
 
     /**
@@ -16,7 +19,6 @@ public class BeanOne extends Object {
     public BeanOne() {
         mySpecialData  = "default value";
     }
-
 
     /**
      *  Gets the mySpecialData attribute of the BeanOne object
@@ -27,7 +29,6 @@ public class BeanOne extends Object {
         return mySpecialData;
     }
 
-
     /**
      *  Sets the mySpecialData attribute of the BeanOne object
      *
@@ -37,4 +38,21 @@ public class BeanOne extends Object {
         this.mySpecialData = mySpecialData;
     }
 
+    /**
+     *  Gets the mySpecialData attribute of the BeanOne object
+     *
+     *@return    The mySpecialData value
+     */
+    public String geTeamName() {
+        return teamName;
+    }
+
+    /**
+     *  Sets the mySpecialData attribute of the BeanOne object
+     *
+     *@param  mySpecialData  The new mySpecialData value
+     */
+    public void setTeamName(String teamName) {
+        this.teamName = teamName;
+    }
 }

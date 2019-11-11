@@ -4,16 +4,13 @@
   <head>
     <meta name="generator" content="HTML Tidy, see www.w3.org">
 
-    <title>MVC Demo</title>
+    <title>Request Parm/Form Demo</title>
   </head>
 
   <body>
-    <h3>MVC Demo</h3>
+    <h3>Form/Request Param Demo</h3>
 
-    <p>Data from my bean: ${myCoolBean.teamName}</p>
+
     
-    <br />
-
-    <a href="/java112">Home</a>
   </body>
 </html>
