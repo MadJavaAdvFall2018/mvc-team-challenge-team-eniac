@@ -12,11 +12,14 @@
 
 
     <form action="/java112/mvc-demo" method="GET">
+        <label for="param1">What is your name?</label>
+          <input type="text" name="yourName" /><br />
+          <br />
         <label for="param1">What is Steph Currys jersey number?</label>
-          <input type="text" name="param1" /><br />
+          <input type="text" name="jerseyNumber" /><br />
           <br />
         <label for="param2">What team did Michael jordan initially play for?</label> 
-           <input type="text" name="param2" value="default value" /><br />
+           <input type="text" name="param2" /><br />
           <br />
            <input type="submit" name="submit" value="Enter" />
         </form>

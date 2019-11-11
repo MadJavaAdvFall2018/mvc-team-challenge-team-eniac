@@ -10,7 +10,9 @@
   <body>
     <h3>MVC Demo</h3>
 
-    <p>Data from my bean: ${myCoolBean.teamName}</p>
+    <p>${myCoolBean.mySpecialData}
+       ${myCoolBean.teamName}
+    </p>
     
     <br />
 

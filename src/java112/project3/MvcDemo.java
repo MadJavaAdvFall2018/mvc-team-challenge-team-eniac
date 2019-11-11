@@ -5,11 +5,8 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
-/**
- * @author apoleski
- * class MvcDemo
- *
- */
+
+
 @WebServlet(
     name = "mvcDemo",
     urlPatterns = { "/mvc-demo" }
@@ -17,22 +14,33 @@ import javax.servlet.annotation.*;
 public class MvcDemo extends HttpServlet {
 
     /**
-     * Handles HTTP GET requests.
+     *  Handles HTTP GET requests.
      *
-     *@param  request               the HttpServletRequest object
-     *@param  response              the HttpServletResponse object
+     *@param  request                   the HttpServletRequest object
+     *@param  response                   the HttpServletResponse object
      *@exception  ServletException  if there is a Servlet failure
      *@exception  IOException       if there is an IO failure
      */
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        String inputName = request.getParameter("mySpecialData");
+        String inputName = request.getParameter("yourName");
+        String teamName = request.getParameter("teamName");
+        Integer jerseyNumber = request.getParameter("jerseyNumber");
+
+        Integer q1answer = 30;
 
         BeanOne myBean = new BeanOne();
 
-        myBean.setMySpecialData("You are special, " + inputName);
-
+        myBean.setMySpecialData("Your name: " + inputName);
         request.setAttribute("myCoolBean", myBean);
+
+        myBean.setMySpecialData("Your answer: " + teamName);
+        request.setAttribute("myCoolBean", myBean);
+
+
+        myBean.setMySpecialData("Your answer: " + jerseyNumber);
+        request.setAttribute("myCoolBean", myBean);
+
 
         String url = "/index.jsp";
 
@@ -40,5 +48,7 @@ public class MvcDemo extends HttpServlet {
                 = getServletContext().getRequestDispatcher(url);
         dispatcher.forward(request, response);
 
+
     }
+
 }

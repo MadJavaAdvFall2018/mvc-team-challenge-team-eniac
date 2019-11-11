@@ -18,6 +18,7 @@ public class BeanOne extends Object {
      */
     public BeanOne() {
         mySpecialData  = "default value";
+        teamName = "default name";
     }
 
     /**
@@ -54,5 +55,23 @@ public class BeanOne extends Object {
      */
     public void setTeamName(String teamName) {
         this.teamName = teamName;
+    }
+
+    /**
+     *  Gets the mySpecialData attribute of the BeanOne object
+     *
+     *@return    The mySpecialData value
+     */
+    public Integer getJerseyNumber () {
+        return jerseyNumber;
+    }
+
+    /**
+     *  Sets the mySpecialData attribute of the BeanOne object
+     *
+     *@param  mySpecialData  The new mySpecialData value
+     */
+    public void setJerseyNumber(Integer jerseyNumber) {
+        this.jerseyNumber = jerseyNumber;
     }
 }
