@@ -25,7 +25,7 @@ public class MvcDemo extends HttpServlet {
 
         String inputName = request.getParameter("yourName");
         String teamName = request.getParameter("teamName");
-        Integer jerseyNumber = request.getParameter("jerseyNumber");
+        String jerseyNumber = request.getParameter("jerseyNumber");
 
         Integer q1answer = 30;
 
@@ -34,12 +34,13 @@ public class MvcDemo extends HttpServlet {
         myBean.setMySpecialData("Your name: " + inputName);
         request.setAttribute("myCoolBean", myBean);
 
+        myBean.setMySpecialData("Your answer: " + jerseyNumber);
+        request.setAttribute("myCoolBean", myBean);
+        
         myBean.setMySpecialData("Your answer: " + teamName);
         request.setAttribute("myCoolBean", myBean);
 
 
-        myBean.setMySpecialData("Your answer: " + jerseyNumber);
-        request.setAttribute("myCoolBean", myBean);
 
 
         String url = "/index.jsp";

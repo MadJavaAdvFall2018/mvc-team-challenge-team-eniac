@@ -1,0 +1,126 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayListDemo<mvc-team-challenge-team-eniac_50eee833>",
+            "request": "launch",
+            "mainClass": "java112.demos.ArrayListDemo",
+            "projectName": "mvc-team-challenge-team-eniac_50eee833"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BufferedReaderDemo<mvc-team-challenge-team-eniac_50eee833>",
+            "request": "launch",
+            "mainClass": "java112.demos.BufferedReaderDemo",
+            "projectName": "mvc-team-challenge-team-eniac_50eee833"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Greetings<mvc-team-challenge-team-eniac_50eee833>",
+            "request": "launch",
+            "mainClass": "java112.demos.Greetings",
+            "projectName": "mvc-team-challenge-team-eniac_50eee833"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloWorld<mvc-team-challenge-team-eniac_50eee833>",
+            "request": "launch",
+            "mainClass": "java112.demos.HelloWorld",
+            "projectName": "mvc-team-challenge-team-eniac_50eee833"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MapDemo<mvc-team-challenge-team-eniac_50eee833>",
+            "request": "launch",
+            "mainClass": "java112.demos.MapDemo",
+            "projectName": "mvc-team-challenge-team-eniac_50eee833"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PropertiesDemo<mvc-team-challenge-team-eniac_50eee833>",
+            "request": "launch",
+            "mainClass": "java112.demos.PropertiesDemo",
+            "projectName": "mvc-team-challenge-team-eniac_50eee833"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PropertiesDemo2<mvc-team-challenge-team-eniac_50eee833>",
+            "request": "launch",
+            "mainClass": "java112.demos.PropertiesDemo2",
+            "projectName": "mvc-team-challenge-team-eniac_50eee833"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StudentDriver<mvc-team-challenge-team-eniac_50eee833>",
+            "request": "launch",
+            "mainClass": "java112.demos.StudentDriver",
+            "projectName": "mvc-team-challenge-team-eniac_50eee833"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StudentMapDemo<mvc-team-challenge-team-eniac_50eee833>",
+            "request": "launch",
+            "mainClass": "java112.demos.StudentMapDemo",
+            "projectName": "mvc-team-challenge-team-eniac_50eee833"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestHTTPServer<mvc-team-challenge-team-eniac_50eee833>",
+            "request": "launch",
+            "mainClass": "java112.demos.TestHTTPServer",
+            "projectName": "mvc-team-challenge-team-eniac_50eee833"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WriteDemo<mvc-team-challenge-team-eniac_50eee833>",
+            "request": "launch",
+            "mainClass": "java112.demos.WriteDemo",
+            "projectName": "mvc-team-challenge-team-eniac_50eee833"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Connect4<mvc-team-challenge-team-eniac_50eee833>",
+            "request": "launch",
+            "mainClass": "java112.labs1.Connect4",
+            "projectName": "mvc-team-challenge-team-eniac_50eee833"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LabThree<mvc-team-challenge-team-eniac_50eee833>",
+            "request": "launch",
+            "mainClass": "java112.labs1.LabThree",
+            "projectName": "mvc-team-challenge-team-eniac_50eee833"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MysteryClassOne<mvc-team-challenge-team-eniac_50eee833>",
+            "request": "launch",
+            "mainClass": "java112.labs1.MysteryClassOne",
+            "projectName": "mvc-team-challenge-team-eniac_50eee833"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UseBufferedReader<mvc-team-challenge-team-eniac_50eee833>",
+            "request": "launch",
+            "mainClass": "java112.labs1.UseBufferedReader",
+            "projectName": "mvc-team-challenge-team-eniac_50eee833"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UsePrintWriter<mvc-team-challenge-team-eniac_50eee833>",
+            "request": "launch",
+            "mainClass": "java112.labs1.UsePrintWriter",
+            "projectName": "mvc-team-challenge-team-eniac_50eee833"
+        }
+    ]
+}
