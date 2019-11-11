@@ -1,8 +1,9 @@
-//TODO update the line below for your team and project.
-# MVC Team Challenge Repository
+# MVC Team ENIAC
 
-//TODO add your team member names below.
 ### Team Members:
+1. Tyler
+2. Fabrice
+3. Anthony
 
 ### Repository Notes
 1. This repository is structured like your projects repository for class, with one main difference:
@@ -20,6 +21,3 @@
 3. Merge in any changes from other team members: git pull
 4. Examine the pull output for any conflicts. If there are [conflicts, resolve them](handlingConflicts.md).
 5. If there are no conflicts: git push.
-
-
-
