@@ -19,7 +19,7 @@
           <input type="text" name="jerseyNumber" /><br />
           <br />
         <label for="param2">What team did Michael jordan initially play for?</label> 
-           <input type="text" name="param2" /><br />
+           <input type="text" name="teamName" /><br />
           <br />
            <input type="submit" name="submit" value="Enter" />
         </form>
