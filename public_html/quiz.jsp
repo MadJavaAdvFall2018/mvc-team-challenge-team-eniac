@@ -1,28 +1,24 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
 
 <html>
-  <head>
-    <meta name="generator" content="HTML Tidy, see www.w3.org">
+    <head>
+        <title>ENIAC Quiz</title>
 
-    <title>Request Parm/Form Demo</title>
-  </head>
+        <meta name="generator" content="HTML Tidy, see www.w3.org">
 
-  <body>
-    <h3>Form/Request Param Demo</h3>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+      
+        <h1>ENIAC Quiz</h1>
 
 
-    <form action="/java112/mvc-demo" method="GET">
-        <label for="param1">What is your name?</label>
-          <input type="text" name="yourName" /><br />
-          <br />
-        <label for="param1">What is Steph Currys jersey number?</label>
-          <input type="text" name="jerseyNumber" /><br />
-          <br />
-        <label for="param2">What team did Michael jordan initially play for?</label> 
-           <input type="text" name="teamName" /><br />
-          <br />
-           <input type="submit" name="submit" value="Enter" />
+        <form action="/java112/quiz" method="GET">
+            <input type="hidden" name="quiz-submitted" value="true" />
+
+            ${quizBean.questionHtml}
         </form>
 
-  </body>
+    </body>
 </html>

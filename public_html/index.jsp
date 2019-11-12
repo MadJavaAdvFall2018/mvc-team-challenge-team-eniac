@@ -1,21 +1,23 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
 
 <html>
-  <head>
-    <meta name="generator" content="HTML Tidy, see www.w3.org">
+    <head>
+        <title>MVC Demo</title>
+        
+        <meta name="generator" content="HTML Tidy, see www.w3.org">
 
-    <title>MVC Demo</title>
-  </head>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
 
-  <body>
-    <h3>MVC Demo</h3>
+    <body>
+        <h3>MVC Demo</h3>
 
-    <p>${myCoolBean.mySpecialData}
-       ${myCoolBean.teamName}
-    </p>
-    
-    <br />
+        <p>
+            ${quizBean.teamName}
+        </p>
 
-    <a href="/java112">Home</a>
-  </body>
+        <br />
+
+        <a href="/java112">Home</a>
+    </body>
 </html>
