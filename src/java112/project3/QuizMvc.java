@@ -59,6 +59,9 @@ public class QuizMvc extends HttpServlet {
 
                 String givenAnswer = request.getParameter(question.getQuestionId());
 
+                if (givenAnswer == null)
+                    givenAnswer = "";
+
 
                 if (question.getMultipleChoiceAnswers() == null) {
                     gradingHtml.append("<label for=\"" + question.getQuestionId()
