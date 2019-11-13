@@ -28,6 +28,23 @@ public class QuizMvc extends HttpServlet {
         questions.add(new Question("question2",
                 "What team did Michael Jordan initially play for?",
                 Arrays.asList("bulls", "chicago bulls")));
+
+        questions.add(new Question("question3",
+                "Out of the following, who has won the most NBA MVP awards?",
+                "Kareem Abdul-Jabbar",
+                Arrays.asList("LeBron James", "Michael Jordan", "Kareem Abdul-Jabbar",
+                "Tim Duncan")));
+
+        questions.add(new Question("question4",
+                "Without overtimes, how many minutes is a regular NBA game?",
+                "48",
+                Arrays.asList("60", "48", "30", "40")));
+
+        questions.add(new Question("question5",
+                "Out of the following, which team has won the most titles?",
+                "Boston Celtics",
+                Arrays.asList("Boston Celtics", "San Antonio Spurs",
+                "Los Angeles Lakers", "Washington Wizards")));
     }
 
     /**

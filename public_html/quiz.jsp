@@ -17,6 +17,10 @@
 
             <h1>ENIAC Quiz</h1>
 
+            <p>
+                <a href="diagram.jsp">View challenge diagram</a>
+            </p>
+
             <form action="/java112/quiz" method="GET">
                 <input type="hidden" name="quiz-submitted" value="true" />
 

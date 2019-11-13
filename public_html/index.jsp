@@ -17,6 +17,10 @@
 
             <h1>ENIAC Quiz // Results</h1>
 
+            <p>
+                <a href="diagram.jsp">View challenge diagram</a>
+            </p>
+
             <h2>Results for ${quizBean.name}</h2>
 
             <ul>
