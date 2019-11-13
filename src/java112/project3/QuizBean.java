@@ -16,10 +16,6 @@ public class QuizBean {
 
     private String gradingHtml;
 
-    public QuizBean() {
-        
-    }
-
     public String getQuestionHtml() {
         return questionHtml;
     }
