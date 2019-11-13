@@ -2,22 +2,34 @@
 
 <html>
     <head>
-        <title>MVC Demo</title>
+        <title>ENIAC Quiz // Results</title>
         
         <meta name="generator" content="HTML Tidy, see www.w3.org">
 
         <link rel="stylesheet" href="css/styles.css">
+
+        <script src="https://kit.fontawesome.com/0217c99d0d.js" crossorigin="anonymous"> </script>
     </head>
 
     <body>
-        <h3>MVC Demo</h3>
 
-        <p>
-            ${quizBean.teamName}
-        </p>
+        <div class="wrapper">
 
-        <br />
+            <h1>ENIAC Quiz // Results</h1>
 
-        <a href="/java112">Home</a>
+            <h2>Results for ${quizBean.name}</h2>
+
+            <ul>
+                <li>Total Correct: ${quizBean.questionsCorrect}</li>
+                <li>Total Questions: ${quizBean.totalQuestions}</li>
+                <li>Percent Correct: ${quizBean.percentCorrect}%</li>
+            </ul>
+
+            ${quizBean.gradingHtml}
+
+            <a href="/java112/quiz">Retake the Quiz</a>
+
+        </div>
+
     </body>
 </html>
